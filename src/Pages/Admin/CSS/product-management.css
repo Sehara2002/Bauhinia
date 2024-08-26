@@ -1,0 +1,104 @@
+.show-form{
+    display: block;
+    transition: 1s ease-in-out;
+}
+.hide-form{
+    display: none;
+    transition:1s ease-in-out;
+}
+.product-table{
+    width:80%;
+    text-align: center;
+    height:auto;
+}
+.product-table tr{
+    padding:20px;
+}
+.open-close-btn{
+    float: inline-end;
+    margin-top: 40px;
+    padding:10px;
+    background-color:rgb(21, 86, 225);
+    border: 2px solid rgb(21, 86, 225);
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product-table-section{
+    padding:20px;
+    transition: 1s ease-in-out;
+}
+.product-table caption{
+    font-size: 2em;
+    font-family: cursive;
+}
+.header{
+    height:50px;
+    background-color: rgb(40, 152, 250);
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.product-table-section h3{
+    text-align: center;
+}
+.product-row{
+    height: 50px;
+    background-color: rgba(169, 169, 169, 0.518);
+}
+.form-container{
+    margin-top: 50px;
+    padding:20px;
+    width:400px;
+    height:600px;
+    animation: loader;
+    animation-duration: 1s;
+
+}
+addNewProduct{
+    transition: 1s ease-in-out;
+}
+
+@keyframes loader {
+    0%{
+        width:0;
+        opacity: 0;
+    }100%{
+        width:400px;
+        opacity: 1;
+    }
+}
+.form-container form h3{
+    text-align: center;
+    font-family:cursive;
+}
+.input-section{
+    margin-top: 20px;
+}
+.input-divs{
+    padding:10px 50px;
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-input{
+    width:250px;
+    height:40px;
+    border:0px;
+    padding:5px;
+    font-family: cursive;
+    border-bottom: 2px solid gray;
+    font-size: 15px;
+}
+.button-add-product{
+    background-color:rgb(21, 86, 225);
+    cursor: pointer;
+    color:white;
+    font-weight: 600;
+    border: 2px solid rgb(21, 86, 225);
+    transition: 0.2s ease-in-out;
+}
+.button-add-product:hover{
+    background-color: White;
+    color:black;
+}

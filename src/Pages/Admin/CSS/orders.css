@@ -1,0 +1,80 @@
+.order-table{
+    text-align: center;
+    width:60vw;
+    font-family: cursive;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+.order-table caption{
+    font-size: 2em;
+    font-family: cursive;
+}
+.model-products{
+    width:50vw;
+    height:80vh;
+    position: absolute;
+    top:10vh;
+    left:30vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+    transition: 0.25s ease-in-out;
+    animation: model-loader;
+    animation-duration: 0.25s;
+}
+
+@keyframes model-loader {
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+.display-model{
+    display: block;
+}
+.hide-model{
+    display: none;
+}
+.ModelClose{
+    padding:10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 40%;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    color: White;
+    border: 0;
+    float: inline-end;
+    cursor: pointer;
+}
+.showproductbtn{
+    background: none;
+    border: none;
+    color:blue;
+    cursor: pointer;
+    font-family: cursive;
+}
+.orderproduct-table{
+    margin-top: 50px;
+    text-align: center;
+    width:48vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+}
+.header{
+    height:50px;
+    background-color: rgb(40, 152, 250);
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.orderproduct-table caption{
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.orderproduct-row{
+    height: 50px;
+    background-color: rgba(169, 169, 169, 0.518);
+}

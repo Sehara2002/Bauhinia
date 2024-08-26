@@ -1,0 +1,96 @@
+.register-section{
+    height:100vh;
+    width:100vw;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./Images/back2.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    object-fit: fill;
+    padding-top:10vh;
+}
+.register-form-section{
+    width:400px;
+    height:80vh;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.register-form-section form{
+    padding:20px;
+    width:400px;
+}
+.form-title{
+    text-align: center;
+    font-size: 2em;
+    font-family:cursive;
+}
+.input{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    height:40px;
+    margin-bottom: 10px;
+    padding:10px;
+}
+.input .data-input{
+    height:35px;
+    width:280px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    padding:2px;
+    font-family:cursive;
+}
+.input.data-input::placeholder{
+    color:gray;
+    opacity: 0.8;
+}
+.register-button{
+    width:280px;
+    height:35px;
+    border: 0;
+    background: transparent;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(56, 74, 240);
+    border: 2px solid rgb(56, 74, 240);
+    cursor: pointer;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.register-button:hover{
+    background: transparent;
+    color:rgb(56, 74, 240);
+}
+.show-box{
+    display: block;
+}
+.hide-box{
+    display: none;
+}
+.messageBox{
+    height:20px;
+    background-color: rgb(115, 248, 144);
+    width:280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.successMessage{
+    font-size: 12px;
+    color:green;
+}
+.errorMessage{
+    font-size: 12px;
+    color:red;
+}
+.errorBox{
+    height:20px;
+    background-color: rgb(248, 115, 115);
+    width:280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-here{
+    text-align: center;
+}
